@@ -1,4 +1,6 @@
-# Linkist
+# 76 Oranges Projects
+
+## [Linkist Theme](https://github.com/shanerobinson/linkist)
 
 ### Updated to TailwindCSS v2.0.2
 
