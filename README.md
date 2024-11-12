@@ -1,4 +1,5 @@
 # 76 Oranges Projects
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6a3dbbe8-7d01-4e10-a623-6ef363f75c45/deploy-status)](https://app.netlify.com/sites/mellow-salmiakki-ef3710/deploys)
 
 ## [Linkist Theme](https://github.com/shanerobinson/linkist)
 
