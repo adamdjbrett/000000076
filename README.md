@@ -1,6 +1,10 @@
 # 76 Oranges Projects
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6a3dbbe8-7d01-4e10-a623-6ef363f75c45/deploy-status)](https://app.netlify.com/sites/mellow-salmiakki-ef3710/deploys)
 
+## Image Credit
+Photo by <a href="https://unsplash.com/@erol?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Erol Ahmed</a> on <a href="https://unsplash.com/photos/orange-fruits-_MYcIi9DgYQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+
 ## [Linkist Theme](https://github.com/shanerobinson/linkist)
 
 ### Updated to TailwindCSS v2.0.2
