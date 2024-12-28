@@ -1,5 +1,9 @@
 [
   {
+    "url": "https://eddy.000000076.xyz/",
+    "text": "Eddy, an 11ty Theme"
+  },
+  {
     "url": "https://github.com/adamdjbrett/11covers-theme",
     "text": "11ty Covers Theme"
   },
@@ -18,9 +22,5 @@
   {
     "url": "https://github.com/adamdjbrett/input.relcfp.com",
     "text": "Input RELCFP RSS"
-  },
-  {
-    "url": "https://proven.lol/b54809",
-    "text": "provenb54809"
   }
 ]
