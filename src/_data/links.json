@@ -1,5 +1,9 @@
 [
   {
+    "url": "https://tufte.000000076.xyz/",
+    "text": "11ty Gets Tufte"
+  },
+  {
     "url": "https://journal.000000076.xyz/",
     "text": "Journal, an 11ty Theme"
   },
@@ -18,6 +22,10 @@
   {
     "url": "https://github.com/adamdjbrett/11covers-theme",
     "text": "11ty Covers Theme"
+  },
+  {
+    "url": "https://github.com/adamdjbrett/outcome",
+    "text": "Outcome Doctrine of Discovery 11ty Theme"
   },
   {
     "url": "https://github.com/adamdjbrett/themidgeekcrisis-app",
