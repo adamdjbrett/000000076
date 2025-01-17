@@ -1,0 +1,10 @@
+<header class="row header">
+<section class="col-md-8 mt-5 mx-auto p-0">
+{% if image %}<img class="img-fluid mb-3 img-profile-header mt-3" width="800" height="300" src="{{ image }}" alt="{{title}}"/>{% else %}<img class="img-fluid mb-3 img-profile-header mt-3" width="800" height="300" src="{{config.image}}" alt="{{title}}"/>{% endif %}
+</section>
+</header>
+<main class="row">
+<section class="col-md-8 mt-5 mx-auto p-3"><h1>{{title}}</h1>
+<h2 class="lead">{{description}}</h2></div>
+<article class="col-md-8 mt-3 mx-auto p-3 text-start">{{ content |safe }}</article>
+</main>

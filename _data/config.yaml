@@ -1,0 +1,30 @@
+navbar_title: 76 Oranges
+image: /images/erol-ahmed-_MYcIi9DgYQ-unsplash-770x190.webp
+navbar:
+ - nav: About
+   link: /about
+
+footer: 
+ - icon: fa-brands fa-github
+   link: https://github.com/adamdjbrett
+   title: Follow me on github
+ - icon: fa-brands fa-facebook
+   link: https://facebook.com/adamdjbrett
+   title: Follow me on Facebook
+ - icon: fa-brands fa-instagram
+   link: https://www.instagram.com/__adjb/
+   title: Follow me on Instagram
+ - icon: fa-solid fa-globe
+   link: https://adamdjbrett.com
+   title: my official site
+ - icon: fa-solid fa-envelope
+   link: "mailto:info@adamdjbrett.com"
+   title: Sent Email to me
+
+copyrights:
+ text1: CC BY-NC-SA 4.0. Developed by
+ text2: Adam DJ Brett
+ text2_link: https://adamdjbrett.com
+ text3: built with
+ text4: 11ty
+ text4_link: https://11ty.dev
