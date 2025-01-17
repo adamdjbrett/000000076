@@ -1,0 +1,47 @@
+item:
+  - from: /photo/ 
+    to: https://photo.aila.ngo/
+  - from: /giwc24/
+    to: https://aila.ngo/statement-from-the-global-indigenous-womens-caucus-giwc-2024/
+  - from: /craft24/
+    to: https://aila.ngo/2024-craft-fair/
+  - from: /tupac/
+    to: https://aila.ngo/honoring-tupac-enrique-acosta-event/
+  - from: /landtheft/
+    to: https://aila.ngo/from-land-theft-to-land-back/
+  - from: /sc/            
+    to: https://www.sullivanclinton.com/
+  - from: /dd/            
+    to: https://doctrineofdiscovery.org/
+  - from: /pod/           
+    to: https://podcast.doctrineofdiscovery.org/
+  - from: /gfm/           
+    to: https://goodfaithmedia.org/doctrine-of-christian-discovery/
+  - from: /film/          
+    to: https://vimeo.com/ondemand/dominationcode
+  - from: /olr/           
+    to: https://www.onondaganation.org/land-rights/
+  - from: /deskaheh/      
+    to: https://cendoc.docip.org/collect/deskaheh/index/assoc/HASH0102/5e23c4be.dir/R612-11-28075-30626-8.pdf
+  - from: /handbook/      
+    to: https://www.un.org/sexualviolenceinconflict/wp-content/uploads/2023/09/auto-draft/UN-Handbook-2023-24.pdf
+  - from: /ta/            
+    to: https://docs.google.com/document/d/1Qifm8T7xnCwsSjHh0phnubd2wzb4XZyY/edit?usp=sharing&ouid=105829064639242093040&rtpof=true&sd=true
+  - from: /unpfii/        
+    to: https://unpfii.desa.un.org/
+  - from: /yanapaq/       
+    to: https://yanapaq.info/en/
+  - from: /rel-docs/      
+    to: https://aila.ngo/2024-unpfii-relevant-documents/
+  - from: /docip/         
+    to: https://www.docip.org/en/
+  - from: /home/          
+    to: https://aila.ngo/
+  - from: /translations23/
+    to:  https://bit.ly/TRANSLATIONS-UNPFII23
+  - from: /booklet/       
+    to: https://aila.ngo/wp-content/uploads/2022/05/Doctrine-of-Discovery-Booklet-rev3.1.pdf
+  - from: /prelim/        
+    to: https://aila.ngo/wp-content/uploads/2010/09/DOD5.pdf
+  - from: /restore/       
+    to: https://aila.ngo/the-restore-our-sacred-lake-5k-and-haudenosaunee-wooden-stick-festival-weekend-september-14th-and-15th-at-onondaga-lake-park/
