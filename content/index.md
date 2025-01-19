@@ -5,13 +5,15 @@ description: "76 Oranges is a design studio that creates modern, colorful, and f
 image: "/images/erol-ahmed-_MYcIi9DgYQ-unsplash-770x190.webp"
 text: "76 Oranges"
 link_list:
-  - name: Wisp, an 11ty Theme
+  - name: "🍓 Strawberry, an 11ty Theme"
+    url: http://strawberry.000000076.xyz/
+  - name: "🍂 Wisp, an 11ty Theme"
     url: https://wisp.000000076.xyz/
-  - name: 11ty Gets Tufte
+  - name: "🖋️ 11ty Gets Tufte"
     url: https://tufte.000000076.xyz/
-  - name: Journal, an 11ty Theme
+  - name: "📓 Journal, an 11ty Theme"
     url: https://journal.000000076.xyz/
-  - name: Library Research Guide, an 11ty Theme
+  - name: "📚 Library Research Guide, an 11ty Theme"
     url: https://research.000000076.xyz/
   - name: Clean blog by Start Boostrap, an 11ty Theme
     url: https://clean.000000076.xyz/
