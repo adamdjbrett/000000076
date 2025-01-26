@@ -23,6 +23,8 @@ link_list:
     url: https://eddy.000000076.xyz/
   - name: 11ty Covers Theme
     url: https://github.com/adamdjbrett/11covers-theme
+  - name: 11ty Social Media Theme
+    url: https://socials.000000076.xyz 
   - name: Outcome Documents for the Doctrine of Discovery
     url: https://outcome.doctrineofdiscovery.org
   - name: Outcome Doctrine of Discovery 11ty Theme Github
