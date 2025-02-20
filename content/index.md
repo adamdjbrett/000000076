@@ -5,9 +5,11 @@ description: "76 Oranges is a design studio that creates modern, colorful, and f
 image: "/images/erol-ahmed-_MYcIi9DgYQ-unsplash-770x190.webp"
 text: "76 Oranges"
 link_list:
+  - name: "👩‍💻 11ty Monospace Theme"
+    url: https://monospace.000000076.xyz/
   - name: "🟩 11ty NeoBrutalist Theme"
     url: https://neobrutalist.000000076.xyz/
-  - name: "𐬺 11ty Imbricate Ultra-Minimalist Theme"
+  - name: "✏️ 11ty Imbricate Ultra-Minimalist Theme"
     url: https://imbricate.000000076.xyz/
   - name: "📚 11ty Book Theme" 
     url: https://book.000000076.xyz/
@@ -25,14 +27,12 @@ link_list:
     url: https://journal.000000076.xyz/
   - name: "📚 Library Research Guide, an 11ty Theme"
     url: https://research.000000076.xyz/
-  - name: Clean blog by Start Boostrap, an 11ty Theme
+  - name: "🧼 Clean blog by Start Boostrap, an 11ty Theme"
     url: https://clean.000000076.xyz/
   - name: Eddy, an 11ty Theme
     url: https://eddy.000000076.xyz/
   - name: 11ty Covers Theme
     url: https://github.com/adamdjbrett/11covers-theme
-  - name: 11ty Social Media Theme
-    url: https://socials.000000076.xyz 
   - name: Outcome Documents for the Doctrine of Discovery
     url: https://outcome.doctrineofdiscovery.org
   - name: Outcome Doctrine of Discovery 11ty Theme Github
