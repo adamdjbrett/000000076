@@ -5,6 +5,10 @@ description: "76 Oranges is a design studio that creates modern, colorful, and f
 image: "/images/erol-ahmed-_MYcIi9DgYQ-unsplash-770x190.webp"
 text: "76 Oranges"
 link_list:
+  - name: "Lux a minimalist blogging 11ty Theme"
+    url: https://lux.000000076.xyz/
+  - name: "The Shining an 11ty Port of Kubrick"
+    url: https://shining.000000076.xyz/
   - name: "👩‍💻 11ty Inter Theme"
     url: https://inter.000000076.xyz/
   - name: "👩‍💻 11ty Monospace Theme"
