@@ -5,6 +5,8 @@ description: "76 Oranges is a design studio that creates modern, colorful, and f
 image: "/images/erol-ahmed-_MYcIi9DgYQ-unsplash-770x190.webp"
 text: "76 Oranges"
 link_list:
+  - name:  "Another Brutalist Theme for 11ty"
+    url: https://brutalist.000000076.xyz
   - name: "Lux a minimalist blogging 11ty Theme"
     url: https://lux.000000076.xyz/
   - name: "The Shining an 11ty Port of Kubrick"
@@ -23,6 +25,8 @@ link_list:
     url: https://brutalism.000000076.xyz/
   - name: "🤓 11ty Long Reads Theme with Font and Color Switching"
     url: https://long.000000076.xyz/
+  - name: "Socials"
+    url: https://socials.000000076.xyz/
   - name: "🍓 Strawberry, an 11ty Theme"
     url: https://strawberry.000000076.xyz/
   - name: "🍂 Wisp, an 11ty Theme"
@@ -37,6 +41,8 @@ link_list:
     url: https://clean.000000076.xyz/
   - name: Eddy, an 11ty Theme
     url: https://eddy.000000076.xyz/
+  - name: "11ty Covers"
+    url: https://cover.000000076.xyz/
   - name: 11ty Covers Theme
     url: https://github.com/adamdjbrett/11covers-theme
   - name: Outcome Documents for the Doctrine of Discovery
