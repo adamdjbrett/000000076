@@ -6,7 +6,7 @@ image: "/images/erol-ahmed-_MYcIi9DgYQ-unsplash-770x190.webp"
 text: "76 Oranges"
 link_list:
   - name: "Bauhaus: Why yes I love web brutalism and 11ty why do you ask?"
-    url: https;//bauhaus.000000076.xyz
+    url: https://bauhaus.000000076.xyz
   - name: "NyBrutalism: Yet Another Brutalist Theme for 11ty"
     url: https://nybrutalism.000000076.xyz/
   - name:  "Another Brutalist Theme for 11ty"
