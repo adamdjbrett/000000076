@@ -5,6 +5,8 @@ description: "76 Oranges is a design studio that creates modern, colorful, and f
 image: "/images/erol-ahmed-_MYcIi9DgYQ-unsplash-770x190.webp"
 text: "76 Oranges"
 link_list:
+  - name: "Picto & Svletia 11ty Template"
+    url: https://pico.000000076.xyz
   - name: "Editorial 11ty Template"
     url:  https://editorial.000000076.xyz
   - name: "Startboostrap, 11ty Grayscale Template"
