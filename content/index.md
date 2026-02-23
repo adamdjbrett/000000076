@@ -5,6 +5,8 @@ description: "76 Oranges is a design studio that creates modern, colorful, and f
 image: "/images/erol-ahmed-_MYcIi9DgYQ-unsplash-770x190.webp"
 text: "76 Oranges"
 link_list:
+  - name: "11ty Dinkleberg theme port from Zola"
+    url: "https://dinkleberg.000000076.xyz"
   - name: "11ty After Dark a port of zola after dark"
     url: "https://afterdark.000000076.xyz/"
   - name: "Academia 11ty Theme a port of a Jekyll theme by Paul Le"
