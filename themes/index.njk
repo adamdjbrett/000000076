@@ -1,0 +1,34 @@
+---
+title: All themes
+description: Every 11ty theme in the collection. Filter by search or tag.
+eleventyNavigation: { key: Themes, order: 2 }
+layout: default
+---
+
+<div class="filter-bar">
+  <input type="search" placeholder="Search themes — try 'brutalist' or 'academic'…" data-theme-search aria-label="Search themes">
+  <div class="tag-filters">
+    <button type="button" class="tag-filter active" data-tag-filter="all" aria-pressed="true">all</button>
+    {% for tag in cats.all %}
+      <button type="button" class="tag-filter" data-tag-filter="{{ tag }}" aria-pressed="false">{{ tag }} <sub>{{ cats.counts[tag] }}</sub></button>
+    {% endfor %}
+  </div>
+</div>
+
+<p style="color:var(--muted-color);font-size:.9rem;margin:0 0 1rem" aria-live="polite" aria-atomic="true">
+  Showing <b data-visible-count>{{ themes | length }}</b> of {{ themes | length }} themes.
+</p>
+
+<div class="theme-grid" data-theme-grid>
+  {% for t in themes %}
+    <a class="theme-card{% if t.placeholder %} placeholder{% endif %}" href="/themes/{{ t.slug }}/" data-name="{{ t.display }} {{ t.name }}" data-desc="{{ t.description }}" data-tags="{{ t.cats | join(' ') }}">
+      <img class="theme-shot" src="/screenshots/{{ t.slug }}.webp" width="650" height="406" loading="lazy" decoding="async" alt="{{ t.display }} theme preview{% if t.placeholder %} coming soon{% endif %}">
+      <span class="number">№ {% if loop.index < 10 %}0{% endif %}{{ loop.index }}</span>
+      <h3>{{ t.display }}</h3>
+      <p>{{ t.description or "An 11ty theme in the 76 Awesome Oranges collection." }}</p>
+      <div class="tags">
+        {% for tag in t.cats %}{% if loop.index <= 4 %}<span class="tag">{{ tag }}</span>{% endif %}{% endfor %}
+      </div>
+    </a>
+  {% endfor %}
+</div>

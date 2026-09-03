@@ -1,0 +1,31 @@
+---
+title: Browse by tag
+description: Every 11ty theme grouped by its tags.
+eleventyNavigation: { key: Tags, order: 3 }
+layout: default
+---
+
+<div class="tag-cloud">
+  {% for tag in cats.all %}
+    <a href="#{{ tag }}">{{ tag }} <sub>{{ cats.counts[tag] }}</sub></a>
+  {% endfor %}
+</div>
+
+{% for tag in cats.all %}
+  <h2 id="{{ tag }}" style="margin-top:2.5rem">
+    <span style="color:var(--primary)">#</span>{{ tag }}
+    <span style="font-size:.9rem;color:var(--muted-color);font-family:var(--font-family);font-weight:400">— {{ cats.counts[tag] }} theme{% if cats.counts[tag] != 1 %}s{% endif %}</span>
+  </h2>
+  <div class="theme-grid">
+    {% for t in cats.byTag[tag] %}
+      <a class="theme-card{% if t.placeholder %} placeholder{% endif %}" href="/themes/{{ t.slug }}/">
+        <img class="theme-shot" src="/screenshots/{{ t.slug }}.webp" width="650" height="406" loading="lazy" decoding="async" alt="{{ t.display }} theme preview{% if t.placeholder %} coming soon{% endif %}">
+        <h3>{{ t.display }}</h3>
+        <p>{{ t.description or "An 11ty theme in the 76 Awesome Oranges collection." }}</p>
+        <div class="tags">
+          {% for tg in t.cats %}{% if loop.index <= 3 %}<span class="tag">{{ tg }}</span>{% endif %}{% endfor %}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+{% endfor %}

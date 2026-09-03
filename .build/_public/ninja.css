@@ -1,0 +1,83 @@
+/*!
+ * Blades CSS' ninja add-ons (experimental) 🥷🧪
+ * Copyright 2026 (https://blades.ninja/css/ninja/)
+ * Licensed under MIT
+ */
+/*\3c !--section:docs-->
+
+### `sup`er &nbsp; and &nbsp; `sub`headings
+
+<article><br>
+
+# <sup style>Parent page</sup> Page title <sub style>Subtitle</sub>
+
+</article>
+
+How it works:
+```css */
+sup[style] {
+  display: block;
+  font-size: min(50%, 0.75rem);
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+sub[style] {
+  display: block;
+  bottom: 0;
+  font-weight: 300;
+  line-height: 1.1;
+  opacity: 75%;
+}
+sub[style]:where(h1 > *) {
+    font-size: 50%;
+  }
+/*```
+
+### Teasers
+
+<article style="padding-inline: 2rem">
+  <a href="https://blades.ninja/" role="button" class="outline">
+    <h4>Blades CSS</h4>
+    Fully compatible and actively maintained successor to Pico CSS.
+  </a>
+</article>
+
+How it works:
+```css */
+a[role="button"]:has(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 0.5rem -1rem;
+  border-width: 1px 0 0 1px;
+  text-align: start;
+}
+/*```
+
+### `.opt`ional content
+
+How it works:
+```css */
+@media (width < 1024px) {
+.opt:not(.does-not-exist) {
+    display: none
+}
+  }
+/*```
+
+### Nicer GitHub favicons
+
+<article>
+
+https://github.com/anyblades/blades
+
+</article>
+
+How it works:
+```css */
+img[src*="?domain=github.com&"] {
+  border-radius: 50%;
+}
+@media (prefers-color-scheme: dark) {
+img[src*="?domain=github.com&"] {
+    filter: invert(1)
+}
+  }
+/*```*/

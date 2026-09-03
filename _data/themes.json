@@ -1,0 +1,1537 @@
+[
+  {
+    "slug": "11ty-academic-lenpaul",
+    "name": "11ty-academic-LeNPaul",
+    "display": "Academic LeNPaul",
+    "description": "11ty Academia port of a Jekyll theme by Paul Le",
+    "demo": "https://academia.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-academic-LeNPaul",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-27T23:31:52Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "academic",
+      "port",
+      "port-from-jekyll"
+    ]
+  },
+  {
+    "slug": "11ty-academic-paper",
+    "name": "11ty-academic-paper",
+    "display": "Academic paper",
+    "description": "Academic Paper theme (ported from Zola)",
+    "demo": "https://academic-paper.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-academic-paper",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-27T23:31:54Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "academic",
+      "port",
+      "port-from-zola"
+    ]
+  },
+  {
+    "slug": "11ty-academic-workshop",
+    "name": "11ty-academic-workshop",
+    "display": "Academic workshop",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-academic-workshop",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-27T23:31:55Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "academic"
+    ]
+  },
+  {
+    "slug": "11ty-after-dark",
+    "name": "11ty-after-dark",
+    "display": "After dark",
+    "description": "11ty port of zola after dark",
+    "demo": "https://afterdark.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-after-dark",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-27T23:31:56Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "dark-mode",
+      "port",
+      "port-from-zola"
+    ]
+  },
+  {
+    "slug": "11ty-apollo",
+    "name": "11ty-apollo",
+    "display": "Apollo",
+    "description": "11ty port of zola apolo",
+    "demo": "https://apollo.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-apollo",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-27T23:31:59Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "port",
+      "port-from-zola"
+    ]
+  },
+  {
+    "slug": "11ty-archie",
+    "name": "11ty-archie",
+    "display": "Archie",
+    "description": "a port of zola Archie to 11ty",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-archie",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-27T23:31:59Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "port",
+      "port-from-zola"
+    ]
+  },
+  {
+    "slug": "11ty-aria-mu-blog",
+    "name": "11ty-aria-mu-blog",
+    "display": "Aria mu blog",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-aria-mu-blog",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:05:03Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "minimal"
+    ]
+  },
+  {
+    "slug": "11ty-aurora",
+    "name": "11ty-aurora",
+    "display": "Aurora",
+    "description": "A 11ty static site template using Ghost as the content management system.",
+    "demo": "https://aurora-11ty.issa4700.xyz/",
+    "repo": "https://github.com/adamdjbrett/11ty-aurora",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-17T14:32:30Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "port-from-ghost",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-base-blog",
+    "name": "11ty-base-blog",
+    "display": "Base blog",
+    "description": "Work In Progress",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-base-blog",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:05:15Z",
+    "topics": [
+      "11ty"
+    ],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-bauhaus",
+    "name": "11ty-Bauhaus",
+    "display": "Bauhaus",
+    "description": "Why yes I love web brutalism and 11ty why do you ask?",
+    "demo": "https://bauhaus.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-Bauhaus",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-25T16:18:15Z",
+    "topics": [
+      "11ty",
+      "11ty-starter",
+      "brutalism-webdesign"
+    ],
+    "placeholder": false,
+    "cats": [
+      "brutalist"
+    ]
+  },
+  {
+    "slug": "11ty-bearblog",
+    "name": "11ty-bearblog",
+    "display": "Bearblog",
+    "description": "An 11ty port of a Hugo theme based on \u00bbBear Blog\u00ab. Free, no-nonsense, super-fast blogging. This theme now includes a dark color scheme to support dark mode \ud83e\udd89 \u2b1b\ufe0f!",
+    "demo": "https://11ty-bearblog.xmit.dev/",
+    "repo": "https://github.com/adamdjbrett/11ty-bearblog",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-23T16:04:20Z",
+    "topics": [
+      "11ty",
+      "11ty-template"
+    ],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "dark-mode",
+      "port",
+      "port-from-hugo",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-blogophonic",
+    "name": "11ty-blogophonic",
+    "display": "Blogophonic",
+    "description": "Blogophonic \u2013 an 11ty port of a Hugo blog theme by Formspree",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-blogophonic",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-07-13T22:19:07Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "port",
+      "port-from-hugo"
+    ]
+  },
+  {
+    "slug": "11ty-bolt-html5up-editorial",
+    "name": "11ty-bolt-html5up-editorial",
+    "display": "Bolt html5up editorial",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-bolt-html5up-editorial",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:05:29Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "editorial"
+    ]
+  },
+  {
+    "slug": "11ty-book",
+    "name": "11ty-book",
+    "display": "Book",
+    "description": "",
+    "demo": "https://book.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-book",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-25T16:18:31Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "docs"
+    ]
+  },
+  {
+    "slug": "11ty-boostrap-blog",
+    "name": "11ty-boostrap-blog",
+    "display": "Boostrap blog",
+    "description": "Mirror for dev mode - not for production",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-boostrap-blog",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:05:58Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "blog"
+    ]
+  },
+  {
+    "slug": "11ty-bootstrap-starter-kit",
+    "name": "11ty-bootstrap-starter-kit",
+    "display": "Bootstrap starter kit",
+    "description": "Mirror for dev mode - not for production",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-bootstrap-starter-kit",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2025-02-20T05:19:53Z",
+    "topics": [
+      "11ty"
+    ],
+    "placeholder": false,
+    "cats": [
+      "bootstrap",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-brutalism",
+    "name": "11ty-brutalism",
+    "display": "Brutalism",
+    "description": "Brutalism CSS theme",
+    "demo": "https://brutalism.000000076.xyz/",
+    "repo": "https://github.com/adamdjbrett/11ty-brutalism",
+    "stars": 7,
+    "forks": 0,
+    "updated": "2026-08-23T07:32:37Z",
+    "topics": [
+      "11ty",
+      "11ty-starter",
+      "brutalism-webdesign"
+    ],
+    "placeholder": false,
+    "cats": [
+      "brutalist"
+    ]
+  },
+  {
+    "slug": "11ty-brutalism-cpanel",
+    "name": "11ty-brutalism-cpanel",
+    "display": "Brutalism cpanel",
+    "description": "Designed to deploy via CPanel - FTP Brutalism CSS theme",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-brutalism-cpanel",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-08-23T07:32:45Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "brutalist"
+    ]
+  },
+  {
+    "slug": "11ty-brutalist",
+    "name": "11ty-Brutalist",
+    "display": "Brutalist",
+    "description": "",
+    "demo": "https://brutalist.000000076.xyz/",
+    "repo": "https://github.com/adamdjbrett/11ty-Brutalist",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-08-23T19:09:21Z",
+    "topics": [
+      "11ty",
+      "11ty-starter",
+      "brutalism-webdesign"
+    ],
+    "placeholder": false,
+    "cats": [
+      "brutalist"
+    ]
+  },
+  {
+    "slug": "11ty-chota-notes",
+    "name": "11ty-chota-notes",
+    "display": "Chota notes",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-chota-notes",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:07:13Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "theme"
+    ]
+  },
+  {
+    "slug": "11ty-clean-blog-startboostrap",
+    "name": "11ty-clean-blog-startboostrap",
+    "display": "Clean blog startboostrap",
+    "description": "11ty port of https://startbootstrap.com/theme/clean-blog",
+    "demo": "https://clean.000000076.xyz/",
+    "repo": "https://github.com/adamdjbrett/11ty-clean-blog-startboostrap",
+    "stars": 3,
+    "forks": 0,
+    "updated": "2026-06-27T23:32:02Z",
+    "topics": [
+      "11ty",
+      "11ty-starter",
+      "11ty-template"
+    ],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "bootstrap",
+      "port"
+    ]
+  },
+  {
+    "slug": "11ty-community",
+    "name": "11ty-community",
+    "display": "Community",
+    "description": "A database of #BuiltWithEleventy web sites.",
+    "demo": "https://github.com/11ty/11ty-community/issues/new/choose",
+    "repo": "https://github.com/adamdjbrett/11ty-community",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-09-01T21:29:12Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "minimal",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-dinkleberg",
+    "name": "11ty-dinkleberg",
+    "display": "Dinkleberg",
+    "description": "11ty Dinkleberg",
+    "demo": "https://dinkleberg.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-dinkleberg",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-27T23:32:02Z",
+    "topics": [
+      "11ty",
+      "11ty-start"
+    ],
+    "placeholder": false,
+    "cats": [
+      "theme"
+    ]
+  },
+  {
+    "slug": "11ty-ed",
+    "name": "11ty-ed",
+    "display": "Ed",
+    "description": "##WIP## attempting to port Jekyll to 11ty. Turning Jekyll back into Hyde",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-ed",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2024-12-22T23:57:41Z",
+    "topics": [
+      "11ty"
+    ],
+    "placeholder": false,
+    "cats": [
+      "port",
+      "port-from-jekyll"
+    ]
+  },
+  {
+    "slug": "11ty-ed-base",
+    "name": "11ty-ed-base",
+    "display": "Ed base",
+    "description": "##WIP## Converting a Jekyll Template to 11ty this time with feeling",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-ed-base",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2024-12-22T23:57:31Z",
+    "topics": [
+      "11ty"
+    ],
+    "placeholder": false,
+    "cats": [
+      "port-from-jekyll",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-ed-bot",
+    "name": "11ty-ed-bot",
+    "display": "Ed bot",
+    "description": "##WIP## leave this alone",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-ed-bot",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2024-12-22T23:58:15Z",
+    "topics": [
+      "11ty"
+    ],
+    "placeholder": false,
+    "cats": [
+      "theme"
+    ]
+  },
+  {
+    "slug": "11ty-eddy",
+    "name": "11ty-eddy",
+    "display": "Eddy",
+    "description": "The 11ty Fork of Minicomp/ed",
+    "demo": "https://eddy.000000076.xyz/",
+    "repo": "https://github.com/adamdjbrett/11ty-eddy",
+    "stars": 2,
+    "forks": 1,
+    "updated": "2026-06-25T16:18:43Z",
+    "topics": [
+      "11ty",
+      "11ty-template"
+    ],
+    "placeholder": false,
+    "cats": [
+      "theme"
+    ]
+  },
+  {
+    "slug": "11ty-editorial",
+    "name": "11ty-editorial",
+    "display": "Editorial",
+    "description": "v2 attempt at porting HTML5UP to 11ty",
+    "demo": "https://editorial.000000076.xyz/",
+    "repo": "https://github.com/adamdjbrett/11ty-editorial",
+    "stars": 1,
+    "forks": 0,
+    "updated": "2026-06-25T16:19:03Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "editorial",
+      "port"
+    ]
+  },
+  {
+    "slug": "11ty-get-going",
+    "name": "11ty-get-going",
+    "display": "Get going",
+    "description": "Get Going is an 11ty starter project for simple blogs, small sites and prototypes.",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-get-going",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:09:46Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-gets-tufte",
+    "name": "11ty-gets-tufte",
+    "display": "Gets tufte",
+    "description": "Tufte CSS meets 11ty",
+    "demo": "https://tufte.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-gets-tufte",
+    "stars": 10,
+    "forks": 3,
+    "updated": "2026-08-09T12:53:28Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "academic"
+    ]
+  },
+  {
+    "slug": "11ty-headline",
+    "name": "11ty-Headline",
+    "display": "Headline",
+    "description": "A local news theme for Ghost",
+    "demo": "https://headline.ghost.io/",
+    "repo": "https://github.com/adamdjbrett/11ty-Headline",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-08-23T07:34:55Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "news",
+      "port-from-ghost"
+    ]
+  },
+  {
+    "slug": "11ty-imbricate",
+    "name": "11ty-imbricate",
+    "display": "Imbricate",
+    "description": "This website uses the \u03bc css framework.",
+    "demo": "https://imbricate.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-imbricate",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-25T16:18:29Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "minimal"
+    ]
+  },
+  {
+    "slug": "11ty-implict-notes",
+    "name": "11ty-implict-notes",
+    "display": "Implict notes",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-implict-notes",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:10:00Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "theme"
+    ]
+  },
+  {
+    "slug": "11ty-inter",
+    "name": "11ty-inter",
+    "display": "Inter",
+    "description": "a port of swissfolio astro theme",
+    "demo": "https://inter.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-inter",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-08-23T07:34:54Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "port",
+      "port-from-astro"
+    ]
+  },
+  {
+    "slug": "11ty-jasper",
+    "name": "11ty-jasper",
+    "display": "Jasper",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-jasper",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:10:09Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "theme"
+    ]
+  },
+  {
+    "slug": "11ty-journal",
+    "name": "11ty-journal",
+    "display": "Journal",
+    "description": "11ty Journal theme",
+    "demo": "https://journal.000000076.xyz/",
+    "repo": "https://github.com/adamdjbrett/11ty-journal",
+    "stars": 6,
+    "forks": 0,
+    "updated": "2026-06-25T16:18:21Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "academic"
+    ]
+  },
+  {
+    "slug": "11ty-kb",
+    "name": "11ty-kb",
+    "display": "Kb",
+    "description": "Knowledge base powered by Build Awesome, Eleventy 4 canary, Baseline, and Pagefind",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-kb",
+    "stars": 1,
+    "forks": 0,
+    "updated": "2026-07-11T16:05:53Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "docs",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-kickstart-blog",
+    "name": "11ty-kickstart-blog",
+    "display": "Kickstart blog",
+    "description": "A starter for your 11ty project using tailwindcss, daisyui, vitejs and vercel",
+    "demo": "https://eleventy-kickstart-blog.vercel.app/",
+    "repo": "https://github.com/adamdjbrett/11ty-kickstart-blog",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-17T14:44:29Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "starter",
+      "tailwind"
+    ]
+  },
+  {
+    "slug": "11ty-long-reads",
+    "name": "11ty-long-reads",
+    "display": "Long reads",
+    "description": "11ty Long Reads",
+    "demo": "https://long.000000076.xyz/",
+    "repo": "https://github.com/adamdjbrett/11ty-long-reads",
+    "stars": 2,
+    "forks": 0,
+    "updated": "2026-08-23T07:35:18Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "academic"
+    ]
+  },
+  {
+    "slug": "11ty-lotusdocs",
+    "name": "11ty-lotusdocs",
+    "display": "Lotusdocs",
+    "description": "\ud83d\udcd6 A free, lightweight, modern documentation theme for Hugo",
+    "demo": "https://lotusdocs.dev/docs/",
+    "repo": "https://github.com/adamdjbrett/11ty-lotusdocs",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-07-27T21:27:48Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "docs",
+      "port-from-hugo"
+    ]
+  },
+  {
+    "slug": "11ty-lux",
+    "name": "11ty-lux",
+    "display": "Lux",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-lux",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-25T16:18:31Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "theme"
+    ]
+  },
+  {
+    "slug": "11ty-min",
+    "name": "11ty-min",
+    "display": "Min",
+    "description": "implementing min.css",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-min",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:11:23Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "minimal"
+    ]
+  },
+  {
+    "slug": "11ty-minidown-docs",
+    "name": "11ty-minidown-docs",
+    "display": "Minidown docs",
+    "description": "Minidown docs port to 11ty",
+    "demo": "https://minidown.000000076.xyz/",
+    "repo": "https://github.com/adamdjbrett/11ty-minidown-docs",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-27T23:32:03Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "docs",
+      "port"
+    ]
+  },
+  {
+    "slug": "11ty-monospace-paper",
+    "name": "11ty-monospace-paper",
+    "display": "Monospace paper",
+    "description": "",
+    "demo": "https://monospace.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-monospace-paper",
+    "stars": 4,
+    "forks": 0,
+    "updated": "2026-08-23T07:35:07Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "academic"
+    ]
+  },
+  {
+    "slug": "11ty-mu",
+    "name": "11ty-mu",
+    "display": "Mu",
+    "description": "an 11ty starter using \u03bc.css",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-mu",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:11:48Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "minimal",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-mvp",
+    "name": "11ty-mvp",
+    "display": "Mvp",
+    "description": "an 11ty starter using mvp.css",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-mvp",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:12:05Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-mvp-blog",
+    "name": "11ty-mvp-blog",
+    "display": "Mvp blog",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-mvp-blog",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:11:44Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "blog"
+    ]
+  },
+  {
+    "slug": "11ty-neobrutalist",
+    "name": "11ty-neobrutalist",
+    "display": "Neobrutalist",
+    "description": "",
+    "demo": "https://neobrutalist.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-neobrutalist",
+    "stars": 2,
+    "forks": 1,
+    "updated": "2026-06-25T16:18:26Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "brutalist"
+    ]
+  },
+  {
+    "slug": "11ty-newspaper",
+    "name": "11ty-newspaper",
+    "display": "Newspaper",
+    "description": "11ty newspaper starter",
+    "demo": "https://newspaper.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-newspaper",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-08-23T07:35:14Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "academic",
+      "news",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-no-connect",
+    "name": "11ty-no-connect",
+    "display": "No connect",
+    "description": "11ty no connect",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-no-connect",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:12:29Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "theme"
+    ]
+  },
+  {
+    "slug": "11ty-no-style-please",
+    "name": "11ty-no-style-please",
+    "display": "No style please",
+    "description": "A minimalist blog template for eleventy with Netlify CMS built in",
+    "demo": "https://11ty-no-style-please.netlify.app",
+    "repo": "https://github.com/adamdjbrett/11ty-no-style-please",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-08-23T07:36:04Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "cms",
+      "minimal",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-nybrutalism",
+    "name": "11ty-nybrutalism",
+    "display": "Nybrutalism",
+    "description": "Nybrutalism -Eleventy Brutalist Blog Starter",
+    "demo": "https://nybrutalism.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-nybrutalism",
+    "stars": 1,
+    "forks": 0,
+    "updated": "2026-06-25T16:18:51Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "brutalist",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-orange-01",
+    "name": "11ty-orange-01",
+    "display": "Orange 01",
+    "description": "A citrus-fresh starter \u2014 coming soon.",
+    "demo": "",
+    "repo": "",
+    "stars": 0,
+    "forks": 0,
+    "updated": "",
+    "topics": [],
+    "placeholder": true,
+    "cats": [
+      "coming-soon"
+    ]
+  },
+  {
+    "slug": "11ty-orange-02",
+    "name": "11ty-orange-02",
+    "display": "Orange 02",
+    "description": "Reserved slot for the next port. Watch this space.",
+    "demo": "",
+    "repo": "",
+    "stars": 0,
+    "forks": 0,
+    "updated": "",
+    "topics": [],
+    "placeholder": true,
+    "cats": [
+      "coming-soon"
+    ]
+  },
+  {
+    "slug": "11ty-orange-03",
+    "name": "11ty-orange-03",
+    "display": "Orange 03",
+    "description": "In development \u2014 will be announced on release.",
+    "demo": "",
+    "repo": "",
+    "stars": 0,
+    "forks": 0,
+    "updated": "",
+    "topics": [],
+    "placeholder": true,
+    "cats": [
+      "coming-soon"
+    ]
+  },
+  {
+    "slug": "11ty-orange-04",
+    "name": "11ty-orange-04",
+    "display": "Orange 04",
+    "description": "The 76th orange \u2014 planned but not yet planted.",
+    "demo": "",
+    "repo": "",
+    "stars": 0,
+    "forks": 0,
+    "updated": "",
+    "topics": [],
+    "placeholder": true,
+    "cats": [
+      "coming-soon"
+    ]
+  },
+  {
+    "slug": "11ty-plain-bootstrap5",
+    "name": "11ty-plain-bootstrap5",
+    "display": "Plain bootstrap5",
+    "description": "Mirror for dev mode - not for production",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-plain-bootstrap5",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2025-02-20T05:19:51Z",
+    "topics": [
+      "11ty"
+    ],
+    "placeholder": false,
+    "cats": [
+      "bootstrap"
+    ]
+  },
+  {
+    "slug": "11ty-research-guide",
+    "name": "11ty-research-guide",
+    "display": "Research guide",
+    "description": "Library Research Guide Template for 11ty",
+    "demo": "https://research.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-research-guide",
+    "stars": 3,
+    "forks": 0,
+    "updated": "2026-08-08T08:50:37Z",
+    "topics": [
+      "11ty",
+      "11ty-starter",
+      "11ty-template"
+    ],
+    "placeholder": false,
+    "cats": [
+      "academic",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-sakura",
+    "name": "11ty-sakura",
+    "display": "Sakura",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-sakura",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:12:47Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "theme"
+    ]
+  },
+  {
+    "slug": "11ty-shining-kubrick",
+    "name": "11ty-shining-kubrick",
+    "display": "Shining kubrick",
+    "description": "A theme based off the iconic Kubrick Theme for WP. This port is named after the 11th film directed by Kubrick, The Shining.",
+    "demo": "https://shining.000000076.xyz/",
+    "repo": "https://github.com/adamdjbrett/11ty-shining-kubrick",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-25T16:18:48Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "port",
+      "port-from-wp",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-startbootstrap-coming-soon",
+    "name": "11ty-startbootstrap-coming-soon",
+    "display": "Startbootstrap coming soon",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-startbootstrap-coming-soon",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-08-23T07:36:16Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "bootstrap"
+    ]
+  },
+  {
+    "slug": "11ty-startbootstrap-creative-gh-pages",
+    "name": "11ty-startbootstrap-creative-gh-pages",
+    "display": "Startbootstrap creative gh pages",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-startbootstrap-creative-gh-pages",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-12T22:38:56Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "bootstrap"
+    ]
+  },
+  {
+    "slug": "11ty-startbootstrap-grayscale",
+    "name": "11ty-startbootstrap-grayscale",
+    "display": "Startbootstrap grayscale",
+    "description": "A multipurpose one page Bootstrap theme created by Start Bootstrap. Demo: https://grayscale.000000076.xyz",
+    "demo": "https://startbootstrap.com/theme/grayscale/",
+    "repo": "https://github.com/adamdjbrett/11ty-startbootstrap-grayscale",
+    "stars": 1,
+    "forks": 0,
+    "updated": "2026-06-03T18:13:01Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "bootstrap",
+      "minimal"
+    ]
+  },
+  {
+    "slug": "11ty-strawberry",
+    "name": "11ty-strawberry",
+    "display": "Strawberry",
+    "description": "A full cover blogging theme",
+    "demo": "https://strawberry.000000076.xyz",
+    "repo": "https://github.com/adamdjbrett/11ty-strawberry",
+    "stars": 1,
+    "forks": 0,
+    "updated": "2026-06-03T18:13:06Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "blog"
+    ]
+  },
+  {
+    "slug": "11ty-sveltia-pico",
+    "name": "11ty-sveltia-pico",
+    "display": "Sveltia pico",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-sveltia-pico",
+    "stars": 1,
+    "forks": 0,
+    "updated": "2026-08-23T07:36:31Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "cms"
+    ]
+  },
+  {
+    "slug": "11ty-tacit",
+    "name": "11ty-tacit",
+    "display": "Tacit",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-tacit",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:13:17Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "theme"
+    ]
+  },
+  {
+    "slug": "11ty-template-bliss",
+    "name": "11ty-template-bliss",
+    "display": "Template bliss",
+    "description": "eleventy-template-bliss",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-template-bliss",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:13:43Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-terminus",
+    "name": "11ty-terminus",
+    "display": "Terminus",
+    "description": "Terminus converted to Eleventy (11ty)",
+    "demo": "https://terminus.xmit.dev",
+    "repo": "https://github.com/adamdjbrett/11ty-terminus",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-23T18:21:37Z",
+    "topics": [
+      "11ty",
+      "11ty-template"
+    ],
+    "placeholder": false,
+    "cats": [
+      "theme"
+    ]
+  },
+  {
+    "slug": "11ty-thebookofcrow",
+    "name": "11ty-thebookofcrow",
+    "display": "Thebookofcrow",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-thebookofcrow",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:13:30Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "docs"
+    ]
+  },
+  {
+    "slug": "11ty-theme-hello-friend",
+    "name": "11ty-theme-hello-friend",
+    "display": "Theme hello friend",
+    "description": "Pretty basic theme for Hugo that covers all of the essentials. All you have to do is start typing!",
+    "demo": "https://github.com/panr/hugo-theme-hello-friend/",
+    "repo": "https://github.com/adamdjbrett/11ty-theme-hello-friend",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-08-23T19:10:50Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "port-from-hugo"
+    ]
+  },
+  {
+    "slug": "11ty-theme-techdoc",
+    "name": "11ty-theme-techdoc",
+    "display": "Theme techdoc",
+    "description": "The Techdoc is a Hugo Theme for technical documentation.",
+    "demo": "https://themes.gohugo.io/hugo-theme-techdoc/",
+    "repo": "https://github.com/adamdjbrett/11ty-theme-techdoc",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-07-27T21:27:56Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "docs",
+      "port-from-hugo"
+    ]
+  },
+  {
+    "slug": "11ty-tiny-theme",
+    "name": "11ty-tiny-theme",
+    "display": "Tiny theme",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-tiny-theme",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-08-23T07:36:14Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "minimal"
+    ]
+  },
+  {
+    "slug": "11ty-ultraminimal",
+    "name": "11ty-ultraminimal",
+    "display": "Ultraminimal",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-ultraminimal",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:13:25Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "minimal"
+    ]
+  },
+  {
+    "slug": "11ty-ungrid",
+    "name": "11ty-ungrid",
+    "display": "Ungrid",
+    "description": "",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-ungrid",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:13:36Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "theme"
+    ]
+  },
+  {
+    "slug": "11ty-website",
+    "name": "11ty-website",
+    "display": "Website",
+    "description": "Documentation site for the Eleventy static site generator.",
+    "demo": "https://www.11ty.dev/",
+    "repo": "https://github.com/adamdjbrett/11ty-website",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-25T16:18:39Z",
+    "topics": [],
+    "placeholder": false,
+    "cats": [
+      "docs"
+    ]
+  },
+  {
+    "slug": "11ty-wisp",
+    "name": "11ty-wisp",
+    "display": "Wisp",
+    "description": "Ultra tiny 11ty starter",
+    "demo": "https://wisp.000000076.xyz/",
+    "repo": "https://github.com/adamdjbrett/11ty-wisp",
+    "stars": 4,
+    "forks": 1,
+    "updated": "2026-09-02T04:33:26Z",
+    "topics": [
+      "11ty",
+      "11ty-starter"
+    ],
+    "placeholder": false,
+    "cats": [
+      "minimal",
+      "starter"
+    ]
+  },
+  {
+    "slug": "11ty-basecoatui",
+    "name": "11ty-basecoatui",
+    "display": "Basecoat UI",
+    "description": "A modern magazine-style blog built with Eleventy and Tailwind CSS.",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-basecoatui",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:05:25Z",
+    "topics": [
+      "11ty",
+      "blog",
+      "magazine",
+      "tailwind"
+    ],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "tailwind",
+      "private"
+    ]
+  },
+  {
+    "slug": "11ty-bolt-pico-notes",
+    "name": "11ty-bolt-pico-notes",
+    "display": "Bolt Pico Notes",
+    "description": "An Eleventy notes theme built with Pico CSS.",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-bolt-pico-notes",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-08-23T02:27:15Z",
+    "topics": [
+      "11ty",
+      "pico-css",
+      "notes"
+    ],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "minimal",
+      "private"
+    ]
+  },
+  {
+    "slug": "11ty-brook-dev",
+    "name": "11ty-brook-dev",
+    "display": "Brook",
+    "description": "An ultra-clean Eleventy and Bootstrap 5 blogging template.",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-brook-dev",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-10T16:16:33Z",
+    "topics": [
+      "11ty",
+      "blog",
+      "bootstrap"
+    ],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "bootstrap",
+      "private"
+    ]
+  },
+  {
+    "slug": "11ty-brutopia-magazine",
+    "name": "11ty-brutopia-magazine",
+    "display": "Brutopia Magazine",
+    "description": "An Eleventy magazine and blog using the Brutopia CSS theme.",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-brutopia-magazine",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-08-23T07:33:58Z",
+    "topics": [
+      "11ty",
+      "blog",
+      "magazine",
+      "brutopia"
+    ],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "brutalist",
+      "private"
+    ]
+  },
+  {
+    "slug": "11ty-directory",
+    "name": "11ty-directory",
+    "display": "Directory",
+    "description": "An Eleventy directory theme for structured collections.",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-directory",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:07:43Z",
+    "topics": [
+      "11ty",
+      "directory"
+    ],
+    "placeholder": false,
+    "cats": [
+      "theme",
+      "private"
+    ]
+  },
+  {
+    "slug": "11ty-magazine",
+    "name": "11ty-magazine",
+    "display": "Magazine",
+    "description": "An Eleventy magazine and blog template using Nunjucks and Tailwind CSS.",
+    "demo": "",
+    "repo": "https://github.com/adamdjbrett/11ty-magazine",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:11:40Z",
+    "topics": [
+      "11ty",
+      "blog",
+      "magazine",
+      "tailwind"
+    ],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "tailwind",
+      "private"
+    ]
+  },
+  {
+    "slug": "11ty-origin",
+    "name": "11ty-origin",
+    "display": "Origin",
+    "description": "A premium Eleventy blog theme using Bootstrap 5.",
+    "demo": "https://11ty-origin.netlify.app/",
+    "repo": "https://github.com/adamdjbrett/11ty-origin",
+    "stars": 0,
+    "forks": 0,
+    "updated": "2026-06-03T18:12:32Z",
+    "topics": [
+      "11ty",
+      "blog",
+      "bootstrap"
+    ],
+    "placeholder": false,
+    "cats": [
+      "blog",
+      "bootstrap",
+      "theme",
+      "private"
+    ]
+  }
+]

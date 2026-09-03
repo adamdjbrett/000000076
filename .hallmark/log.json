@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-09-02",
+    "macrostructure": "Catalogue",
+    "theme": "custom",
+    "theme_axes": "light / high-contrast-serif / warm",
+    "vibe": "warm citrus screenshot catalogue",
+    "enrichment": "real theme screenshots",
+    "brief": "Add local JPEG and WebP previews for every theme"
+  },
+  {
+    "date": "2026-09-02",
+    "macrostructure": "Catalogue",
+    "theme": "custom",
+    "theme_axes": "light / high-contrast-serif / warm",
+    "vibe": "warm citrus theme directory",
+    "enrichment": "none",
+    "brief": "76 Awesome Oranges theme directory upgrade"
+  }
+]

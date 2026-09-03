@@ -1,0 +1,71 @@
+---
+pagination:
+  data: themes
+  size: 1
+  alias: theme
+  addAllPagesToCollections: true
+permalink: "/themes/{{ theme.slug }}/index.html"
+layout: default
+eleventyComputed:
+  title: "{{ theme.display }}"
+  description: "{{ theme.description or 'An Eleventy theme in the 76 Awesome Oranges collection.' }}"
+---
+
+<div class="theme-detail">
+
+  <p style="margin:0 0 .5rem;color:var(--muted-color);font-size:.9rem">
+    <a href="/themes/">← All themes</a>
+  </p>
+
+  <h1 style="margin-bottom:.25rem">{{ theme.display }}</h1>
+  <p style="font-family:var(--font-family);color:var(--muted-color);margin:0 0 1rem;font-size:.9rem">
+    <code>{{ theme.name }}</code>
+    {% if theme.placeholder %}<span class="tag" style="margin-left:.5rem;background:var(--orange-100);color:var(--orange-700)">coming soon</span>{% endif %}
+  </p>
+
+  {% if theme.description %}
+    <p><big>{{ theme.description }}</big></p>
+  {% endif %}
+
+  <div class="meta">
+    {% if theme.repo %}<div><span class="k">Repository</span><span class="v"><a href="{{ theme.repo }}">GitHub</a></span></div>{% endif %}
+    {% if theme.demo %}<div><span class="k">Demo</span><span class="v"><a href="{{ theme.demo }}">{{ theme.demo | replace('https://','') | replace('http://','') }}</a></span></div>{% endif %}
+    {% if not theme.placeholder %}
+      <div><span class="k">Stars</span><span class="v">{{ theme.stars }}</span></div>
+      <div><span class="k">Forks</span><span class="v">{{ theme.forks }}</span></div>
+      <div><span class="k">Updated</span><span class="v">{% if theme.updated %}{{ theme.updated | slice(0,10) | first }}{% else %}—{% endif %}</span></div>
+    {% endif %}
+    <div><span class="k">Tags</span><span class="v">{% for tag in theme.cats %}<a href="/tags/#{{ tag }}" style="margin-right:.4rem">{{ tag }}</a>{% endfor %}</span></div>
+  </div>
+
+  <div class="cta">
+    {% if theme.demo %}<a href="{{ theme.demo }}" role="button">View live demo →</a>{% endif %}
+    {% if theme.repo %}<a href="{{ theme.repo }}" role="button" class="outline">View on GitHub</a>{% endif %}
+    {% if theme.repo %}<a href="{{ theme.repo }}/generate" role="button" class="outline">Use as template</a>{% endif %}
+  </div>
+
+  <h2 style="margin-top:2rem">Preview</h2>
+  <figure class="theme-preview">
+    <img src="/screenshots/{{ theme.slug }}.webp" width="650" height="406" loading="lazy" decoding="async" alt="{{ theme.display }} theme preview{% if theme.placeholder %} coming soon{% endif %}">
+  </figure>
+
+  <h2 style="margin-top:2.5rem">Quick start</h2>
+
+  {% if theme.repo %}
+
+```sh
+# Clone this theme
+git clone {{ theme.repo }}.git
+cd {{ theme.name }}
+
+# Install + run
+cd .build/ 2>/dev/null || true
+npm install
+npm start
+```
+
+  {% else %}
+  <p><i>This theme is not yet published. Watch <a href="https://github.com/adamdjbrett?tab=repositories&q=11ty-">the GitHub repos page</a> for updates.</i></p>
+  {% endif %}
+
+</div>

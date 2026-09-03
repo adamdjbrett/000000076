@@ -1,0 +1,88 @@
+:root {
+  --color-paper: oklch(98% 0.012 70);
+  --color-paper-2: oklch(95% 0.025 65);
+  --color-card: oklch(99% 0.008 70);
+  --color-ink: oklch(20% 0.025 55);
+  --color-muted: oklch(39% 0.055 55);
+  --color-rule: oklch(65% 0.045 65);
+  --color-accent: oklch(49% 0.18 45);
+  --color-accent-hover: oklch(42% 0.16 45);
+  --color-accent-ink: oklch(98% 0.012 70);
+  --color-accent-soft: oklch(95% 0.04 65);
+  --color-accent-mid: oklch(84% 0.09 60);
+  --color-leaf: oklch(46% 0.1 135);
+  --color-focus: oklch(18% 0.025 55);
+  --color-code-paper: oklch(20% 0.025 55);
+  --color-code-ink: oklch(92% 0.05 65);
+
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  --text-xs: 0.72rem;
+  --text-sm: 0.85rem;
+  --text-base: 1rem;
+  --text-md: 1.15rem;
+  --text-lg: 1.35rem;
+  --text-xl: 2rem;
+  --text-display: clamp(3rem, 8vw, 5.5rem);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+
+  --radius-card: 0.625rem;
+  --radius-pill: 999px;
+  --rule-thin: 1px;
+
+  /* Blades compatibility */
+  --primary: var(--color-accent);
+  --primary-hover: var(--color-accent-hover);
+  --primary-focus: var(--color-focus);
+  --primary-inverse: var(--color-accent-ink);
+  --color: var(--color-ink);
+  --muted-color: var(--color-muted);
+  --background-color: var(--color-paper);
+  --card-background-color: var(--color-card);
+  --card-border-color: var(--color-rule);
+  --code-background-color: var(--color-code-paper);
+  --code-color: var(--color-code-ink);
+  --border-radius: var(--radius-card);
+  --font-family: var(--font-body);
+  --font-family-display: var(--font-display);
+  --orange-50: var(--color-accent-soft);
+  --orange-100: var(--color-rule);
+  --orange-300: var(--color-accent-mid);
+  --orange-400: var(--color-accent);
+  --orange-600: var(--color-accent);
+  --orange-700: var(--color-accent-hover);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: oklch(15% 0.018 55);
+    --color-paper-2: oklch(19% 0.025 55);
+    --color-card: oklch(21% 0.025 55);
+    --color-ink: oklch(94% 0.025 65);
+    --color-muted: oklch(76% 0.08 65);
+    --color-rule: oklch(55% 0.055 55);
+    --color-accent: oklch(76% 0.14 60);
+    --color-accent-hover: oklch(84% 0.11 65);
+    --color-accent-ink: oklch(18% 0.025 55);
+    --color-accent-soft: oklch(24% 0.05 55);
+    --color-accent-mid: oklch(72% 0.1 65);
+    --color-focus: oklch(96% 0.02 65);
+  }
+}

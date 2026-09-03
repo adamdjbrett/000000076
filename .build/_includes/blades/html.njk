@@ -1,0 +1,49 @@
+{#<!--section:code-->```jinja2 #}
+<!doctype html>
+<html lang="{{ site.lang | d('en') }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+
+    <title>{{ title | striptags | replace('&nbsp;', ' ') }}{{ ' | ' if title and site.title }}{{ site.title }}</title>
+    <meta name="description" content="{{ description | d(site.subtitle, true) | striptags }}" />
+
+    <link rel="icon" href="{{ site.favicon | d('/favicon.ico') }}" />
+    {%- for href in site.styles %}
+      <link rel="stylesheet" href="{{ href }}" />
+    {%- endfor %}
+    {%- for src in site.scripts %}
+      <script src="{{ src }}" defer></script>
+    {%- endfor %}
+
+    {{ content_for_header | safe }}
+    {{ site.head_extras | d([]) | join('\n') | safe }}
+  </head>
+
+  <body {{ site.body_attrs | safe }}>
+    {% block body %}
+      <main>
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
+      </main>
+    {% endblock %}
+
+    {{ site.body_extras | d([]) | join('\n') | safe }}
+  </body>
+</html>
+{#```
+<!--section:docs-->
+
+Usage in Nunjucks layout:
+
+```jinja2
+{% extends 'blades/html.njk' %}
+
+{% block body %}...{% endblock %}
+```
+
+Live examples:
+- https://github.com/anyblades/buildawesome-starters/blob/main/_includes/default.njk
+- https://github.com/anyblades/subtle/blob/main/.11ty/_includes/default.njk
+
+#}

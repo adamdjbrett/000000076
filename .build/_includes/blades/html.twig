@@ -1,0 +1,47 @@
+{#<!--section:code-->```twig #}
+<!doctype html>
+<html lang="{{ site.lang|default('en') }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+
+    <title>{{ title|striptags|replace({'&nbsp;': ' '}) }}{% if title and site.title %} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ description|striptags }}" />
+
+    <link rel="icon" href="{{ site.favicon|default('/favicon.ico') }}" />
+    {%- for href in site.styles %}
+      <link rel="stylesheet" href="{{ href }}" />
+    {%- endfor %}
+    {%- for src in site.scripts %}
+      <script src="{{ src }}" defer></script>
+    {%- endfor %}
+
+    {{ content_for_header|raw }}
+    {{ site.head_extras|default([])|join('\n')|raw }}
+  </head>
+
+  <body {{ site.body_attrs|raw }}>
+    {% block body %}
+      <main>
+        <h1>{{ title }}</h1>
+        {{ content|raw }}
+      </main>
+    {% endblock %}
+
+    {{ site.body_extras|default([])|join('\n')|raw }}
+  </body>
+</html>
+{#```
+<!--section:docs-->
+
+Usage in Twig layout:
+
+```twig
+{% extends 'blades/html.twig' %}
+
+{% block body %}...{% endblock %}
+```
+
+Pass `site`, `title` and `description` via the render context.
+
+#}

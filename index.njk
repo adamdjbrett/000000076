@@ -1,0 +1,47 @@
+---
+permalink: /
+eleventyNavigation: { key: Home, order: 1 }
+hide_title: true
+layout: default
+---
+
+<section class="hero">
+  <p class="number" style="font-family:var(--font-family-display);color:var(--primary);letter-spacing:.15em;font-size:.85rem;text-transform:uppercase;margin:0 0 .5rem">A directory · 000000076.xyz</p>
+  <h1 class="huge"><span class="seventysix">76</span> Awesome Oranges</h1>
+  <p class="lede">A hand-picked directory of <b>{{ stats.total }} Eleventy (11ty) themes</b> ported, remixed, and freshly grown by <a href="https://adamdjbrett.com">Adam DJ Brett</a>. Built with <a href="https://buildawesome.one/">Build Awesome</a>, <a href="https://blades.ninja/">Blades CSS</a>, and a warm citrus overlay.</p>
+  <div class="actions">
+    <a href="/themes/" role="button">Browse all {{ stats.total }} →</a>
+    <a href="/tags/" role="button" class="outline">By tag</a>
+    <a href="https://github.com/adamdjbrett?tab=repositories&q=11ty-" role="button" class="outline">On GitHub</a>
+  </div>
+</section>
+
+<div class="stats">
+  <div class="stat"><span class="n">{{ stats.total }}</span><span class="l">Themes</span></div>
+  <div class="stat"><span class="n">{{ stats.withDemo }}</span><span class="l">Live demos</span></div>
+  <div class="stat"><span class="n">{{ stats.tagCount }}</span><span class="l">Tags</span></div>
+  <div class="stat"><span class="n">{{ stats.real }}</span><span class="l">Shipping now</span></div>
+</div>
+
+<h2 style="margin-top:2.5rem">Featured oranges</h2>
+
+<div class="theme-grid">
+  {% for t in stats.featured %}
+    <a class="theme-card" href="/themes/{{ t.slug }}/" data-name="{{ t.display }}" data-desc="{{ t.description }}" data-tags="{{ t.cats | join(' ') }}">
+      <img class="theme-shot" src="/screenshots/{{ t.slug }}.webp" width="650" height="406" loading="lazy" decoding="async" alt="{{ t.display }} theme preview">
+      <span class="number">№ {% if loop.index < 10 %}0{% endif %}{{ loop.index }}</span>
+      <h3>{{ t.display }}</h3>
+      <p>{{ t.description or "An 11ty theme in the 76 Awesome Oranges collection." }}</p>
+      <div class="tags">{% for tag in t.cats | slice(3) | first %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+    </a>
+  {% endfor %}
+</div>
+
+<h2 style="margin-top:2.5rem">What lives here</h2>
+<ul>
+<li><b>Ports and remixes</b> of themes from Hugo, Zola, Jekyll, WordPress, Ghost, and Astro — reworked to run on Eleventy.</li>
+<li><b>CSS-framework studies</b> of Blades, Bootstrap, Tailwind, Chota, Sakura, Tacit, MVP, μ, and more.</li>
+<li><b>Editorial, academic, brutalist, and minimal</b> starting points — pick a vibe, clone the repo, ship.</li>
+</ul>
+
+<p style="margin-top:2rem"><a href="/themes/" role="button">See all {{ stats.total }} themes →</a></p>

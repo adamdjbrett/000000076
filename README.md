@@ -1,48 +1,47 @@
-# 76 Oranges Projects
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6a3dbbe8-7d01-4e10-a623-6ef363f75c45/deploy-status)](https://app.netlify.com/sites/mellow-salmiakki-ef3710/deploys)
+---
+permalink: false
+---
+# 76 Awesome Oranges
 
-## Image Credit
-Photo by <a href="https://unsplash.com/@erol?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Erol Ahmed</a> on <a href="https://unsplash.com/photos/orange-fruits-_MYcIi9DgYQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-      
-# Adam Lists Links
+A hand-picked directory of 76 Eleventy themes by [Adam DJ Brett](https://adamdjbrett.com), built with [BuildAwesome](https://buildawesome.one/) and [Blades CSS](https://blades.ninja/).
 
-Developer : [Adam Dj Brett](https://adamdjbrett.com)
+- Site: <https://000000076.xyz/>
+- Catalog: 79 published themes and 4 clearly marked coming-soon entries
 
-For Link Lists
+## Local development
 
-Mobile Test
+Node 22.15 or newer is required.
 
-![Adam Dj Brett Link Lists](mobile.png)
+```bash
+npm --prefix .build ci
+npm run screenshots
+npm run dev
+```
 
-Desktop Test
+Create and verify a production build:
 
-![Adam Dj Brett Link Lists](desktop.png)
+```bash
+npm --prefix .build run check
+```
 
-### First Setup
+Screenshots are fetched as JPEG through the [Eleventy Screenshot API](https://github.com/11ty/api-screenshot), converted to WebP, and kept together in `_public/screenshots/`. The pages serve WebP; the static output is written to `_site/` and can be served by any static host.
 
-Open `_data/metadata.js`
+## Structure
 
-the metadata files is for socialcard, meta tags, and SEO. open `_data/metadata.js` and insert title description and others for SEO.
+```text
+├── .build/                  BuildAwesome and Eleventy configuration
+├── _data/themes.json        Theme records and computed indexes
+├── _public/                 CSS, JavaScript, and favicon
+├── themes/                  Directory and generated detail pages
+├── tags/                    Tag index
+├── index.njk                Home page
+└── about.njk                About page
+```
 
-### Configuration Navbar and Footer
+## Catalog data
 
-To setup your navbar menu and icon on footer , you can open `_data/config.yaml`
+Each theme record keeps the fields `slug`, `name`, `display`, `description`, `demo`, `repo`, `stars`, `forks`, `updated`, `topics`, `placeholder`, and `cats`. Edit `_data/themes.json` to replace a coming-soon entry.
 
-Use fontawesome icon - https://fontawesome.com/search
+## License
 
-copy paste icon in to icon menu.
-
-example: `fa-solid fa-envelope`
-
-### Link Lists
-
-To update link list , open `content/index.md`
-
-### Content Image
-
-if you want to add image in to your content article , you can upload your image or media file in to `content/images`
-
-and insert image in to your post or frontmatter, example :
-
-`image: /images/myphoto.png`
-
+MIT. See `LICENSE.md`.

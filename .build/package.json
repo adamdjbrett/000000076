@@ -1,0 +1,51 @@
+{
+  "private": true,
+  "name": "@000000076/76-awesome-oranges",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.15"
+  },
+  "scripts": {
+    "precli": "[ -t 1 ] && clear || true",
+    "cli": "BA_OPTIONS='--input ../ --output ../_site --config node_modules/@buildawesome.one/config/buildawesome.config.js' npm -C .cli/ run",
+    "start": "npm run cli -- start",
+    "stage": "npm run cli -- stage",
+    "build": "node --input-type=module -e \"import { rmSync } from 'node:fs'; rmSync('../_site', { recursive: true, force: true })\" && npm run cli -- build",
+    "check": "npm run build && node ../scripts/check-build.mjs",
+    "screenshots": "node scripts/screenshots.mjs"
+  },
+  "dependencies": {
+    "@awesome.me/buildawesome": "^4.0.0-0",
+    "@buildawesome.one/config": "^1.5.0"
+  },
+  "devDependencies": {
+    "prettier-plugin-jinja-template": "^2.1.0",
+    "serve": "^14.2.5",
+    "sharp": "0.35.4"
+  },
+  "--- SITE GLOBALS": "compatible with https://www.11ty.dev/docs/plugins/rss/#virtual-template",
+  "site": {
+    "author": {
+      "name": "Adam DJ Brett",
+      "url": "https://adamdjbrett.com"
+    },
+    "base": "https://000000076.xyz/",
+    "favicon": "/favicon.svg",
+    "footer": "<b>76 Awesome Oranges</b> — a directory of <a href='https://github.com/adamdjbrett?tab=repositories&q=11ty-'>Adam DJ Brett's 11ty themes</a>. Built with <a href='https://buildawesome.one/'>Build Awesome</a> and <a href='https://blades.ninja/'>Blades CSS</a>.",
+    "language": "en",
+    "subtitle": "A directory of 76 hand-picked 11ty themes by Adam DJ Brett",
+    "styles": [
+      "/blades.css",
+      "/ninja.css",
+      "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Inter:wght@400;500;700&display=swap",
+      "/css/oranges.css"
+    ],
+    "scripts": [
+      "/js/filter.js"
+    ],
+    "title": "76 Awesome Oranges"
+  },
+  "---": "---"
+}

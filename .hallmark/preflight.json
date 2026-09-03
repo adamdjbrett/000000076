@@ -1,0 +1,8 @@
+{
+  "date": "2026-09-02",
+  "framework": "Eleventy via BuildAwesome",
+  "fonts": ["Fraunces", "Inter"],
+  "palette": "OKLCH citrus tokens",
+  "motion": "CSS only",
+  "spacing": "4px semantic scale"
+}

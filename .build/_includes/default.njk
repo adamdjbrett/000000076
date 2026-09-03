@@ -1,0 +1,40 @@
+{% extends 'blades/html.njk' %}
+
+{% set page_title = title | d(site.title, true) %}
+{% set page_description = description | d(site.subtitle, true) %}
+{% set content_for_header %}
+  {% if page.url %}<link rel="canonical" href="{{ page.url | htmlBaseUrl(site.base) }}">{% endif %}
+  <meta property="og:title" content="{{ page_title | striptags }}">
+  <meta property="og:description" content="{{ page_description | striptags }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:type" content="website">
+  {% if page.url %}<meta property="og:url" content="{{ page.url | htmlBaseUrl(site.base) }}">{% endif %}
+  <meta name="twitter:card" content="summary">
+{% endset %}
+
+{% block body %}
+  <nav class="container" aria-label="Primary navigation">
+    <ul>
+      <li>
+        <a href="/" aria-label="76 Awesome Oranges home">
+          <svg class="brand-mark" width="26" height="26" viewBox="0 0 32 32" aria-hidden="true">
+            <circle cx="16" cy="17" r="12"/>
+            <path class="brand-leaf" d="M16 5c-1.5 2-2.2 3.4-2.2 4.6 0 1.6 1 2.4 2.2 2.4s2.2-.8 2.2-2.4C18.2 8.4 17.5 7 16 5z"/>
+            <path class="brand-stem" d="M18.5 9.5c1.4-.4 2.6-.2 3.5.6"/>
+          </svg>
+          <b>76 Awesome Oranges</b>
+        </a>
+      </li>
+    </ul>
+    {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+  </nav>
+  <main class="container breakout-all" id="main-content">
+    {% block main %}
+      {% if title and not hide_title %}<h1>{{ title }}</h1>{% endif %}
+      {% if description and not hide_title %}<p><big>{{ description }}</big></p>{% endif %}
+      {{ content | safe }}
+    {% endblock %}
+  </main>
+  <hr>
+  <footer>{{ site.footer | safe }} © {{ site.year }}</footer>
+{% endblock %}
